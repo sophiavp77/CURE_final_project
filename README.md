@@ -5,7 +5,7 @@ This repository contains the implementation of Sequential Gaussian Simulation (S
 Previously the bed topography of MBL has been mapped by Bedmap, BedMachine, and DEMOGORGAN. Bedmap and BedMachine rely mainly on kriging, while DEMOGORGAN uses SGS. Kriging will often make a smoothed surface with irregularities, which might cause issues when visualizing volcanoes. DEMOGORGAN uses SGS to simulate the bed topography, but it does not represent the volcanism in MBL well. The method used in this project is both Sequential Gaussian Simulation (SGS) and Co-Simulation. Co-Simulation is used at higher elevations where there is linear correlation between ice surface elevation and bed elevation, and SGS is used everywhere else. 
 ### Study Area
 The study area for this project is the volcanic region of Marie Byrd Land (MBL) in West Antarctica. In this region there are many subglacial volcanoes which makes for many peaks and varied topography. 
-<img width="957" height="791" alt="Study Area" src="https://github.com/user-attachments/assets/8ae4200b-c6ae-47fd-acfc-e7c6d13d94f0" />
+<img width="478" height="396" alt="Study Area" align="center" src="https://github.com/user-attachments/assets/8ae4200b-c6ae-47fd-acfc-e7c6d13d94f0" />
 ## Methods
 We use both Co-Simulation and SGS to create realizations of our study area. This mixed approach allows us to use Co-Simulation, which requires a linear correlation between parameters to function. This means for this project that Co-Simulation can only be used when there is a linear correlation between ice surface elevation and bed elevation. In this case correlation only occurs at higher elevations where the ice is generally thinner.
 - Import and set data boundary from Bed Machine
@@ -52,7 +52,7 @@ In order to reproduce the results we created, the files should be run as is. If 
 Initial data is from Bed Machine v3
 Geostatistical methods (SGS and Co-Simulation) methods are from Emma Mackie’s GStatSim: https://github.com/GatorGlaciology/GStatSim/tree/main   
 For downloading and visualizing data from DEMOGORGN this project follows steps from: https://developmentseed.org/astera-demogorgn/ 
-<img width="500" height="500" alt="Gator Glaciology Lab Logo" src="https://github.com/user-attachments/assets/8ec5c082-8c1e-4255-8a85-928cac00be2d" />
+<img width="300" height="300" alt="Gator Glaciology Lab Logo" src="https://github.com/user-attachments/assets/a7cf9f8d-edb3-456b-824d-b0fdd935b459" />
 ## Poster
 **Placeholder: Picture of poster**
 ## References
