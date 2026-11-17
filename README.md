@@ -54,6 +54,7 @@ Geostatistical methods (SGS and Co-Simulation) methods are from Emma Mackie’s 
 For downloading and visualizing data from DEMOGORGN this project follows steps from: https://developmentseed.org/astera-demogorgn/ 
 
 <img width="200" height="200" alt="30" src="https://github.com/user-attachments/assets/da8793cc-b0ba-4d63-972e-d41e3e6f8e5a" />
+
 ## Poster
 **Placeholder: Picture of poster**
 ## References
