@@ -16,9 +16,11 @@ We use both Co-Simulation and SGS to create realizations of our study area. This
 - Use correlation form above to split the data. Where there is linear correlation use values from the Co-Simulation realization, and everywhere else use values from the SGSrealization.
 - Merge the simulations into one realization. Use data from Co-Simulation above the cutoff, and SGS for everything else.
 - Use HiPerGator to create a 100 member ensemble of realizations to upload to DEMOGORGN
+
 **Placeholder: visual representation of methods (similar to poster) including correlation plot**
 ## Results
 The results from this project are 100 realizations of the study are in MBL, which can be used to update DEMOGORGN. The final realizations show both the realistic topography from the geostatistical methods (SGS), as well as clear peaks of the higher elevation volcanoes from the Co-Simulation methods.
+
 **Placeholder: Picture of comparison of three bed elevations (from Bedmachine, DEMOGORGN, and ours)**
 ## How to Use
 ### Environment/Dependancies  
@@ -53,7 +55,7 @@ Initial data is from Bed Machine v3
 Geostatistical methods (SGS and Co-Simulation) methods are from Emma Mackie’s GStatSim: https://github.com/GatorGlaciology/GStatSim/tree/main   
 For downloading and visualizing data from DEMOGORGN this project follows steps from: https://developmentseed.org/astera-demogorgn/ 
 
-<img width="200" height="200" alt="30" src="https://github.com/user-attachments/assets/da8793cc-b0ba-4d63-972e-d41e3e6f8e5a" />
+<img width="150" height="150" alt="30" src="https://github.com/user-attachments/assets/da8793cc-b0ba-4d63-972e-d41e3e6f8e5a" />
 
 ## Poster
 **Placeholder: Picture of poster**
