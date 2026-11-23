@@ -26,8 +26,8 @@ The results from this project are 100 realizations of the study are in MBL, whic
 ### Environment/Dependancies  
 We recommend creating a conda environment using the geostats2026.yml file. 
 You can do that with the following commands:
-- conda env create -f geostats2026.yml
-- conda activate geostats2026
+conda env create -f geostats2026.yml
+conda activate geostats2026
 
 **We use the following dependencies:** 
 - import numpy as np
@@ -45,10 +45,11 @@ You can do that with the following commands:
 ### Data:
 We use data from Bed Machine v3 (placeholder data access). Download this data. The file path will need to be adjusted to where you have saved the data.
 ### Files:
-DEMOGORGN_MBL_Visual.ipynb : downloading and visualizing DEMOGORGAN’s bed elevation for the MBL study area
-DEMOGORGN_Test_Visual.ipynb : downloading and visualizing DEMOGORGAN’s bed elevation for the test area
-Simulation_MBL: running all 100 simulations of whole MBL area on HiPerGator
-Simulation_Test.ipynb: Running 1 combined SGS and Co-Simulation simulation on test area
+- **DEMOGORGN_MBL_Visual.ipynb** : downloading and visualizing DEMOGORGAN’s bed elevation for the MBL study area
+- **DEMOGORGN_Test_Visual.ipynb** : downloading and visualizing DEMOGORGAN’s bed elevation for the test area
+- **Simulation_MBL** : running all 100 simulations of whole MBL area on HiPerGator
+- **Simulation_Test.ipynb** : Running 1 combined SGS and Co-Simulation simulation on test area
+- **Visual_MBL** : Visualing the output of the simulation from the file Simulation_MBL
 
 In order to reproduce the results we created, the files should be run as is. If you would like to look at a different smaller test area of MBL you can adjust the initial coordinates in Simulation_Test.ipynb
 ## Acknowledgements & Data Sources
