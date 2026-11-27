@@ -49,7 +49,6 @@ We use data from Bed Machine v3 (placeholder data access). Download this data. T
 - **DEMOGORGN_Test_Visual.ipynb** : downloading and visualizing DEMOGORGAN’s bed elevation for the test area
 - **Simulation_MBL** : running all 100 simulations of whole MBL area on HiPerGator
 - **Simulation_Test.ipynb** : Running 1 combined SGS and Co-Simulation simulation on test area
-- **Visual_MBL** : Visualing the output of the simulation from the file Simulation_MBL
 - **geostats2026.yml** : the enviroment we used, described above
 
 In order to reproduce the results we created, the files should be run as is. If you would like to look at a different smaller test area of MBL you can adjust the initial coordinates in Simulation_Test.ipynb
