@@ -11,12 +11,13 @@ We use both Co-Simulation and SGS to create realizations of our study area. This
 - Import and set data boundary from Bed Machine
 - Normalize data for bed elevation and ice surface elevation
 - Find correlation coefficient and location for bed elevation and ice surface
+<img width="282" height="264" alt="MBL Correlation with caption" src="https://github.com/user-attachments/assets/4a6ff1d8-26bf-42e7-9184-83a2f390f8c2" />
+
 - Run CoKriging and Co-Simulation on all data, using both bed elevation and ice surface elevation to make the realization.
 - Run Kriging and SGS on all data, which only uses bed elevation data to create the realization.
 - Use correlation form above to split the data. Where there is linear correlation use values from the Co-Simulation realization, and everywhere else use values from the SGSrealization.
 - Merge the simulations into one realization. Use data from Co-Simulation above the cutoff, and SGS for everything else.
 - Use HiPerGator to create a 100 member ensemble of realizations to upload to DEMOGORGN
-<img width="282" height="264" alt="MBL Correlation with caption" src="https://github.com/user-attachments/assets/4a6ff1d8-26bf-42e7-9184-83a2f390f8c2" />
 <img width="2022" height="649" alt="methods with caption" src="https://github.com/user-attachments/assets/3c6baf4f-faf4-48fd-8816-e02ef358f9a5" />
 
 ## Results
