@@ -21,7 +21,7 @@ We use both Co-Simulation and SGS to create realizations of our study area. This
 <img width="2022" height="649" alt="methods with caption" src="https://github.com/user-attachments/assets/3c6baf4f-faf4-48fd-8816-e02ef358f9a5" />
 
 ## Results
-The results from this project are 100 realizations of the study are in MBL, which can be used to update DEMOGORGN. The final realizations show both the realistic topography from the geostatistical methods (SGS), as well as clear peaks of the higher elevation volcanoes from the Co-Simulation methods.
+The results from this project are 100 realizations of the study are in MBL, which can be used to update DEMOGORGN. The final realizations show both the realistic topography from the geostatistical methods, as well as clear peaks of the higher elevation volcanoes from the Co-Simulation methods. While this approach can not be applied everywhere, it will give our simulations more realistic topography with a better representation of the many rigid volcanic peaks in MBL.
 <img width="2096" height="732" alt="Comparison" src="https://github.com/user-attachments/assets/85071fdb-382e-45e4-b40f-ac7c97541c3c" />
 
 **Placeholder: Picture of example MBL final visual**
