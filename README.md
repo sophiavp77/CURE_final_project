@@ -16,12 +16,13 @@ We use both Co-Simulation and SGS to create realizations of our study area. This
 - Use correlation form above to split the data. Where there is linear correlation use values from the Co-Simulation realization, and everywhere else use values from the SGSrealization.
 - Merge the simulations into one realization. Use data from Co-Simulation above the cutoff, and SGS for everything else.
 - Use HiPerGator to create a 100 member ensemble of realizations to upload to DEMOGORGN
-
-**Placeholder: visual representation of methods (similar to poster) including correlation plot**
+<img width="848" height="852" alt="MBL Correlation with caption" src="https://github.com/user-attachments/assets/4a6ff1d8-26bf-42e7-9184-83a2f390f8c2" />
+<img width="2022" height="649" alt="methods with caption" src="https://github.com/user-attachments/assets/3c6baf4f-faf4-48fd-8816-e02ef358f9a5" />
 ## Results
 The results from this project are 100 realizations of the study are in MBL, which can be used to update DEMOGORGN. The final realizations show both the realistic topography from the geostatistical methods (SGS), as well as clear peaks of the higher elevation volcanoes from the Co-Simulation methods.
+<img width="2096" height="732" alt="Comparison" src="https://github.com/user-attachments/assets/85071fdb-382e-45e4-b40f-ac7c97541c3c" />
 
-**Placeholder: Picture of comparison of three bed elevations (from Bedmachine, DEMOGORGN, and ours)**
+**Placeholder: Picture of example MBL final visual**
 ## How to Use
 ### Environment/Dependancies  
 We recommend creating a conda environment using the geostats2026.yml file. 
